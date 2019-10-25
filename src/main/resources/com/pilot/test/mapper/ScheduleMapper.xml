@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pilot.test.mapper.ScheduleMapper">
+    <insert id="batchSave" parameterType="List">
+        INSERT INTO schedule (id, demandname, demandsources, rank,
+        demandspecification, tasktype, version,
+        person, planstarttime, planfinishtime,
+        planday, actualstarttime, actualfinishtime,
+        actualday, currentstatus, accepter,
+        remark, reviewid)
+        VALUES
+        <foreach collection="list" item="item" index="index" separator=",">
+            (#{item.id},#{item.demandname}, #{item.demandsources}, #{item.rank},
+            #{item.demandspecification}, #{item.tasktype}, #{item.version},
+            #{item.person}, #{item.planstarttime}, #{item.planfinishtime},
+            #{item.planday}, #{item.actualstarttime}, #{item.actualfinishtime},
+            #{item.actualday}, #{item.currentstatus}, #{item.accepter},
+            #{item.remark}, #{item.reviewid})
+        </foreach>
+    </insert>
+</mapper>

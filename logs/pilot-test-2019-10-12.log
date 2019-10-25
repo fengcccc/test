@@ -1,0 +1,32 @@
+2019-10-12 15:02:54.728 +0800	INFO	org.springframework.boot.StartupInfoLogger	50	restartedMain	Starting TestApplication on DESKTOP-VBH6Q13 with PID 12816 (G:\PilotTest\test\target\classes started by fc in G:\PilotTest\test)
+2019-10-12 15:02:54.736 +0800	INFO	org.springframework.boot.SpringApplication	648	restartedMain	No active profile set, falling back to default profiles: default
+2019-10-12 15:02:54.828 +0800	INFO	org.springframework.boot.logging.DeferredLog	225	restartedMain	Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-12 15:02:54.828 +0800	INFO	org.springframework.boot.logging.DeferredLog	225	restartedMain	For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-12 15:02:55.861 +0800	INFO	org.springframework.data.repository.config.RepositoryConfigurationDelegate	126	restartedMain	Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-12 15:02:55.911 +0800	INFO	org.springframework.data.repository.config.RepositoryConfigurationDelegate	182	restartedMain	Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+2019-10-12 15:02:56.397 +0800	INFO	org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker	330	restartedMain	Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$932b7e9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-12 15:02:56.929 +0800	INFO	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	90	restartedMain	Tomcat initialized with port(s): 8080 (http)
+2019-10-12 15:02:56.945 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-12 15:02:56.957 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Starting service [Tomcat]
+2019-10-12 15:02:56.958 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-10-12 15:02:57.231 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Initializing Spring embedded WebApplicationContext
+2019-10-12 15:02:57.232 +0800	INFO	org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext	284	restartedMain	Root WebApplicationContext: initialization completed in 2402 ms
+2019-10-12 15:02:57.377 +0800	INFO	com.zaxxer.hikari.HikariDataSource	110	restartedMain	HikariPool-1 - Starting...
+2019-10-12 15:02:57.461 +0800	INFO	com.zaxxer.hikari.HikariDataSource	123	restartedMain	HikariPool-1 - Start completed.
+2019-10-12 15:02:57.503 +0800	INFO	org.hibernate.jpa.internal.util.LogHelper	31	restartedMain	HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-12 15:02:57.551 +0800	INFO	org.hibernate.Version	46	restartedMain	HHH000412: Hibernate Core {5.3.11.Final}
+2019-10-12 15:02:57.553 +0800	INFO	org.hibernate.cfg.Environment	213	restartedMain	HHH000206: hibernate.properties not found
+2019-10-12 15:02:57.653 +0800	INFO	org.hibernate.annotations.common.reflection.java.JavaReflectionManager	49	restartedMain	HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-12 15:02:57.770 +0800	INFO	org.hibernate.dialect.Dialect	157	restartedMain	HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-12 15:02:57.920 +0800	INFO	org.springframework.orm.jpa.AbstractEntityManagerFactoryBean	415	restartedMain	Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-12 15:02:58.289 +0800	WARN	org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration	226	restartedMain	spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-12 15:02:58.529 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	171	restartedMain	Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-12 15:02:58.567 +0800	WARN	org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer	60	restartedMain	Unable to start LiveReload server
+2019-10-12 15:02:58.706 +0800	INFO	springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper	120	restartedMain	Context refreshed
+2019-10-12 15:02:58.717 +0800	INFO	springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper	123	restartedMain	Found 1 custom documentation plugin(s)
+2019-10-12 15:02:58.726 +0800	INFO	springfox.documentation.spring.web.scanners.ApiListingReferenceScanner	41	restartedMain	Scanning for api listing references
+2019-10-12 15:02:58.876 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Starting ProtocolHandler ["http-nio-8080"]
+2019-10-12 15:02:58.894 +0800	INFO	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	202	restartedMain	Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-12 15:02:58.897 +0800	INFO	org.springframework.boot.StartupInfoLogger	59	restartedMain	Started TestApplication in 4.703 seconds (JVM running for 6.291)

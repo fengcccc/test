@@ -1,0 +1,163 @@
+2019-10-17 08:51:42.521 +0800	INFO	org.springframework.boot.StartupInfoLogger	50	restartedMain	Starting TestApplication on DESKTOP-VBH6Q13 with PID 10048 (G:\PilotTest\test\target\classes started by fc in G:\PilotTest\test)
+2019-10-17 08:51:42.550 +0800	INFO	org.springframework.boot.SpringApplication	648	restartedMain	No active profile set, falling back to default profiles: default
+2019-10-17 08:51:42.681 +0800	INFO	org.springframework.boot.logging.DeferredLog	225	restartedMain	Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-17 08:51:42.681 +0800	INFO	org.springframework.boot.logging.DeferredLog	225	restartedMain	For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-17 08:51:45.758 +0800	WARN	org.mybatis.logging.Logger	44	restartedMain	No MyBatis mapper was found in '[com.pilot.test]' package. Please check your configuration.
+2019-10-17 08:51:45.889 +0800	INFO	org.springframework.data.repository.config.RepositoryConfigurationDelegate	244	restartedMain	Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-17 08:51:45.892 +0800	INFO	org.springframework.data.repository.config.RepositoryConfigurationDelegate	126	restartedMain	Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-17 08:51:45.927 +0800	INFO	org.springframework.data.repository.config.RepositoryConfigurationDelegate	182	restartedMain	Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+2019-10-17 08:51:45.947 +0800	INFO	org.springframework.data.repository.config.RepositoryConfigurationDelegate	244	restartedMain	Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-17 08:51:45.949 +0800	INFO	org.springframework.data.repository.config.RepositoryConfigurationDelegate	126	restartedMain	Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-17 08:51:45.984 +0800	INFO	org.springframework.data.repository.config.RepositoryConfigurationDelegate	182	restartedMain	Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-10-17 08:51:46.188 +0800	WARN	org.mybatis.logging.Logger	44	restartedMain	No MyBatis mapper was found in '[com.pilot.test.*.dao]' package. Please check your configuration.
+2019-10-17 08:51:46.664 +0800	INFO	org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker	330	restartedMain	Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$911044cd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-17 08:51:47.436 +0800	INFO	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	90	restartedMain	Tomcat initialized with port(s): 8080 (http)
+2019-10-17 08:51:47.461 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-17 08:51:47.474 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Starting service [Tomcat]
+2019-10-17 08:51:47.476 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-10-17 08:51:47.615 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Initializing Spring embedded WebApplicationContext
+2019-10-17 08:51:47.615 +0800	INFO	org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext	284	restartedMain	Root WebApplicationContext: initialization completed in 4932 ms
+2019-10-17 08:51:47.933 +0800	INFO	com.zaxxer.hikari.HikariDataSource	110	restartedMain	HikariPool-1 - Starting...
+2019-10-17 08:51:48.086 +0800	INFO	com.zaxxer.hikari.HikariDataSource	123	restartedMain	HikariPool-1 - Start completed.
+2019-10-17 08:51:48.159 +0800	INFO	org.hibernate.jpa.internal.util.LogHelper	31	restartedMain	HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-17 08:51:48.312 +0800	INFO	org.hibernate.Version	46	restartedMain	HHH000412: Hibernate Core {5.3.11.Final}
+2019-10-17 08:51:48.314 +0800	INFO	org.hibernate.cfg.Environment	213	restartedMain	HHH000206: hibernate.properties not found
+2019-10-17 08:51:48.644 +0800	INFO	org.hibernate.annotations.common.reflection.java.JavaReflectionManager	49	restartedMain	HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-17 08:51:49.037 +0800	INFO	org.hibernate.dialect.Dialect	157	restartedMain	HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-17 08:51:49.377 +0800	INFO	org.springframework.orm.jpa.AbstractEntityManagerFactoryBean	415	restartedMain	Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-17 08:51:50.628 +0800	WARN	org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration	226	restartedMain	spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-17 08:51:50.962 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	171	restartedMain	Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-17 08:51:51.030 +0800	INFO	org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer	57	restartedMain	LiveReload server is running on port 35729
+2019-10-17 08:51:51.963 +0800	INFO	springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper	120	restartedMain	Context refreshed
+2019-10-17 08:51:51.982 +0800	INFO	springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper	123	restartedMain	Found 1 custom documentation plugin(s)
+2019-10-17 08:51:51.998 +0800	INFO	springfox.documentation.spring.web.scanners.ApiListingReferenceScanner	41	restartedMain	Scanning for api listing references
+2019-10-17 08:51:52.190 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: addUsingPOST_1
+2019-10-17 08:51:52.204 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: listUsingGET_1
+2019-10-17 08:51:52.214 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: addUsingPOST_2
+2019-10-17 08:51:52.218 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: deleteUsingDELETE_1
+2019-10-17 08:51:52.224 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: listUsingGET_2
+2019-10-17 08:51:52.228 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: updateUsingPUT_1
+2019-10-17 08:51:52.248 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: addUsingPOST_3
+2019-10-17 08:51:52.263 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: addUsingPOST_4
+2019-10-17 08:51:52.268 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: deleteUsingDELETE_2
+2019-10-17 08:51:52.278 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: listUsingGET_3
+2019-10-17 08:51:52.289 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: updateUsingPUT_2
+2019-10-17 08:51:52.318 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Starting ProtocolHandler ["http-nio-8080"]
+2019-10-17 08:51:52.345 +0800	INFO	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	202	restartedMain	Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-17 08:51:52.349 +0800	INFO	org.springframework.boot.StartupInfoLogger	59	restartedMain	Started TestApplication in 10.744 seconds (JVM running for 20.194)
+2019-10-17 08:52:04.646 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	208	Thread-29	Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-17 08:52:04.651 +0800	INFO	org.springframework.orm.jpa.AbstractEntityManagerFactoryBean	597	Thread-29	Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-17 08:52:04.658 +0800	INFO	com.zaxxer.hikari.HikariDataSource	350	Thread-29	HikariPool-1 - Shutdown initiated...
+2019-10-17 08:52:04.688 +0800	INFO	com.zaxxer.hikari.HikariDataSource	352	Thread-29	HikariPool-1 - Shutdown completed.
+2019-10-17 08:52:05.816 +0800	INFO	org.springframework.boot.StartupInfoLogger	50	restartedMain	Starting TestApplication on DESKTOP-VBH6Q13 with PID 10048 (G:\PilotTest\test\target\classes started by fc in G:\PilotTest\test)
+2019-10-17 08:52:05.817 +0800	INFO	org.springframework.boot.SpringApplication	648	restartedMain	No active profile set, falling back to default profiles: default
+2019-10-17 08:52:06.458 +0800	WARN	org.mybatis.logging.Logger	44	restartedMain	No MyBatis mapper was found in '[com.pilot.test]' package. Please check your configuration.
+2019-10-17 08:52:06.492 +0800	INFO	org.springframework.data.repository.config.RepositoryConfigurationDelegate	244	restartedMain	Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-17 08:52:06.492 +0800	INFO	org.springframework.data.repository.config.RepositoryConfigurationDelegate	126	restartedMain	Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-17 08:52:06.502 +0800	INFO	org.springframework.data.repository.config.RepositoryConfigurationDelegate	182	restartedMain	Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-10-17 08:52:06.508 +0800	INFO	org.springframework.data.repository.config.RepositoryConfigurationDelegate	244	restartedMain	Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-17 08:52:06.508 +0800	INFO	org.springframework.data.repository.config.RepositoryConfigurationDelegate	126	restartedMain	Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-17 08:52:06.517 +0800	INFO	org.springframework.data.repository.config.RepositoryConfigurationDelegate	182	restartedMain	Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-10-17 08:52:06.584 +0800	WARN	org.mybatis.logging.Logger	44	restartedMain	No MyBatis mapper was found in '[com.pilot.test.*.dao]' package. Please check your configuration.
+2019-10-17 08:52:06.639 +0800	INFO	org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker	330	restartedMain	Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$911044cd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-17 08:52:06.948 +0800	INFO	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	90	restartedMain	Tomcat initialized with port(s): 8080 (http)
+2019-10-17 08:52:06.950 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-17 08:52:06.951 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Starting service [Tomcat]
+2019-10-17 08:52:06.951 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-10-17 08:52:06.979 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Initializing Spring embedded WebApplicationContext
+2019-10-17 08:52:06.980 +0800	INFO	org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext	284	restartedMain	Root WebApplicationContext: initialization completed in 1157 ms
+2019-10-17 08:52:07.086 +0800	INFO	com.zaxxer.hikari.HikariDataSource	110	restartedMain	HikariPool-2 - Starting...
+2019-10-17 08:52:07.093 +0800	INFO	com.zaxxer.hikari.HikariDataSource	123	restartedMain	HikariPool-2 - Start completed.
+2019-10-17 08:52:07.108 +0800	INFO	org.hibernate.jpa.internal.util.LogHelper	31	restartedMain	HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-17 08:52:07.130 +0800	INFO	org.hibernate.dialect.Dialect	157	restartedMain	HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-17 08:52:07.150 +0800	INFO	org.springframework.orm.jpa.AbstractEntityManagerFactoryBean	415	restartedMain	Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-17 08:52:07.993 +0800	WARN	org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration	226	restartedMain	spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-17 08:52:08.279 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	171	restartedMain	Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-17 08:52:08.317 +0800	INFO	org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer	57	restartedMain	LiveReload server is running on port 35729
+2019-10-17 08:52:08.509 +0800	INFO	springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper	120	restartedMain	Context refreshed
+2019-10-17 08:52:08.510 +0800	INFO	springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper	123	restartedMain	Found 1 custom documentation plugin(s)
+2019-10-17 08:52:08.515 +0800	INFO	springfox.documentation.spring.web.scanners.ApiListingReferenceScanner	41	restartedMain	Scanning for api listing references
+2019-10-17 08:52:08.563 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: addUsingPOST_1
+2019-10-17 08:52:08.573 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: listUsingGET_1
+2019-10-17 08:52:08.581 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: addUsingPOST_2
+2019-10-17 08:52:08.583 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: deleteUsingDELETE_1
+2019-10-17 08:52:08.589 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: listUsingGET_2
+2019-10-17 08:52:08.593 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: updateUsingPUT_1
+2019-10-17 08:52:08.606 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: addUsingPOST_3
+2019-10-17 08:52:08.628 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: addUsingPOST_4
+2019-10-17 08:52:08.631 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: deleteUsingDELETE_2
+2019-10-17 08:52:08.639 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: listUsingGET_3
+2019-10-17 08:52:08.645 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: updateUsingPUT_2
+2019-10-17 08:52:08.655 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Starting ProtocolHandler ["http-nio-8080"]
+2019-10-17 08:52:08.659 +0800	INFO	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	202	restartedMain	Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-17 08:52:08.659 +0800	INFO	org.springframework.boot.StartupInfoLogger	59	restartedMain	Started TestApplication in 2.911 seconds (JVM running for 36.505)
+2019-10-17 08:52:08.663 +0800	INFO	org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener	63	restartedMain	Condition evaluation unchanged
+2019-10-17 08:53:01.733 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	http-nio-8080-exec-1	Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-17 08:53:01.733 +0800	INFO	org.springframework.web.servlet.FrameworkServlet	524	http-nio-8080-exec-1	Initializing Servlet 'dispatcherServlet'
+2019-10-17 08:53:01.746 +0800	INFO	org.springframework.web.servlet.FrameworkServlet	546	http-nio-8080-exec-1	Completed initialization in 13 ms
+2019-10-17 08:53:43.257 +0800	WARN	org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver	198	http-nio-8080-exec-1	Resolved [com.pilot.test.common.exception.CustomException: 您输入的数据不符合业务逻辑，请确认后重新输入！]
+2019-10-17 08:54:31.007 +0800	WARN	com.zaxxer.hikari.pool.HikariPool$HouseKeeper	766	HikariPool-2 housekeeper	HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=47s805ms597µs900ns).
+2019-10-17 08:55:13.520 +0800	WARN	org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver	198	http-nio-8080-exec-2	Resolved [com.pilot.test.common.exception.CustomException: 在XXX业务，myBiz()方法内，出现ClassNotFoundException]
+2019-10-17 08:59:16.061 +0800	WARN	com.zaxxer.hikari.pool.HikariPool$HouseKeeper	766	HikariPool-2 housekeeper	HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=3m32s541ms856µs).
+2019-10-17 09:38:38.901 +0800	WARN	com.zaxxer.hikari.pool.HikariPool$HouseKeeper	766	HikariPool-2 housekeeper	HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=39m22s839ms892µs700ns).
+2019-10-17 09:38:38.903 +0800	WARN	org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver	198	http-nio-8080-exec-5	Resolved [com.pilot.test.common.exception.CustomException: 在XXX业务，myBiz()方法内，出现ClassNotFoundException]
+2019-10-17 09:38:53.063 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	208	Thread-41	Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-17 09:38:53.063 +0800	INFO	org.springframework.orm.jpa.AbstractEntityManagerFactoryBean	597	Thread-41	Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-17 09:38:53.079 +0800	INFO	com.zaxxer.hikari.HikariDataSource	350	Thread-41	HikariPool-2 - Shutdown initiated...
+2019-10-17 09:38:53.110 +0800	INFO	com.zaxxer.hikari.HikariDataSource	352	Thread-41	HikariPool-2 - Shutdown completed.
+2019-10-17 09:38:53.781 +0800	INFO	org.springframework.boot.StartupInfoLogger	50	restartedMain	Starting TestApplication on DESKTOP-VBH6Q13 with PID 10048 (G:\PilotTest\test\target\classes started by fc in G:\PilotTest\test)
+2019-10-17 09:38:53.782 +0800	INFO	org.springframework.boot.SpringApplication	648	restartedMain	No active profile set, falling back to default profiles: default
+2019-10-17 09:38:54.488 +0800	WARN	org.mybatis.logging.Logger	44	restartedMain	No MyBatis mapper was found in '[com.pilot.test]' package. Please check your configuration.
+2019-10-17 09:38:54.535 +0800	INFO	org.springframework.data.repository.config.RepositoryConfigurationDelegate	244	restartedMain	Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-17 09:38:54.535 +0800	INFO	org.springframework.data.repository.config.RepositoryConfigurationDelegate	126	restartedMain	Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-17 09:38:54.535 +0800	INFO	org.springframework.data.repository.config.RepositoryConfigurationDelegate	182	restartedMain	Finished Spring Data repository scanning in 0ms. Found 0 repository interfaces.
+2019-10-17 09:38:54.550 +0800	INFO	org.springframework.data.repository.config.RepositoryConfigurationDelegate	244	restartedMain	Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-17 09:38:54.550 +0800	INFO	org.springframework.data.repository.config.RepositoryConfigurationDelegate	126	restartedMain	Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-17 09:38:54.550 +0800	INFO	org.springframework.data.repository.config.RepositoryConfigurationDelegate	182	restartedMain	Finished Spring Data repository scanning in 0ms. Found 0 repository interfaces.
+2019-10-17 09:38:54.613 +0800	WARN	org.mybatis.logging.Logger	44	restartedMain	No MyBatis mapper was found in '[com.pilot.test.*.dao]' package. Please check your configuration.
+2019-10-17 09:38:54.691 +0800	INFO	org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker	330	restartedMain	Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$911044cd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-17 09:38:54.988 +0800	INFO	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	90	restartedMain	Tomcat initialized with port(s): 8080 (http)
+2019-10-17 09:38:55.004 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-17 09:38:55.004 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Starting service [Tomcat]
+2019-10-17 09:38:55.004 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-10-17 09:38:55.113 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Initializing Spring embedded WebApplicationContext
+2019-10-17 09:38:55.113 +0800	INFO	org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext	284	restartedMain	Root WebApplicationContext: initialization completed in 1323 ms
+2019-10-17 09:38:55.386 +0800	INFO	com.zaxxer.hikari.HikariDataSource	110	restartedMain	HikariPool-3 - Starting...
+2019-10-17 09:38:55.390 +0800	INFO	com.zaxxer.hikari.HikariDataSource	123	restartedMain	HikariPool-3 - Start completed.
+2019-10-17 09:38:55.413 +0800	INFO	org.hibernate.jpa.internal.util.LogHelper	31	restartedMain	HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-17 09:38:55.467 +0800	INFO	org.hibernate.dialect.Dialect	157	restartedMain	HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-17 09:38:55.489 +0800	INFO	org.springframework.orm.jpa.AbstractEntityManagerFactoryBean	415	restartedMain	Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-17 09:38:55.999 +0800	WARN	org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration	226	restartedMain	spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-17 09:38:56.288 +0800	INFO	org.springframework.scheduling.concurrent.ExecutorConfigurationSupport	171	restartedMain	Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-17 09:38:56.320 +0800	INFO	org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer	57	restartedMain	LiveReload server is running on port 35729
+2019-10-17 09:38:56.554 +0800	INFO	springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper	120	restartedMain	Context refreshed
+2019-10-17 09:38:56.554 +0800	INFO	springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper	123	restartedMain	Found 1 custom documentation plugin(s)
+2019-10-17 09:38:56.570 +0800	INFO	springfox.documentation.spring.web.scanners.ApiListingReferenceScanner	41	restartedMain	Scanning for api listing references
+2019-10-17 09:38:56.601 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: addUsingPOST_1
+2019-10-17 09:38:56.617 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: listUsingGET_1
+2019-10-17 09:38:56.617 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: addUsingPOST_2
+2019-10-17 09:38:56.617 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: deleteUsingDELETE_1
+2019-10-17 09:38:56.632 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: listUsingGET_2
+2019-10-17 09:38:56.632 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: updateUsingPUT_1
+2019-10-17 09:38:56.648 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: addUsingPOST_3
+2019-10-17 09:38:56.664 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: addUsingPOST_4
+2019-10-17 09:38:56.664 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: deleteUsingDELETE_2
+2019-10-17 09:38:56.679 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: listUsingGET_3
+2019-10-17 09:38:56.679 +0800	INFO	springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator	40	restartedMain	Generating unique operation named: updateUsingPUT_2
+2019-10-17 09:38:56.695 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	restartedMain	Starting ProtocolHandler ["http-nio-8080"]
+2019-10-17 09:38:56.695 +0800	INFO	org.springframework.boot.web.embedded.tomcat.TomcatWebServer	202	restartedMain	Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-17 09:38:56.695 +0800	INFO	org.springframework.boot.StartupInfoLogger	59	restartedMain	Started TestApplication in 2.992 seconds (JVM running for 2844.551)
+2019-10-17 09:38:56.695 +0800	INFO	org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener	63	restartedMain	Condition evaluation unchanged
+2019-10-17 09:39:03.752 +0800	INFO	org.apache.juli.logging.DirectJDKLog	173	http-nio-8080-exec-1	Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-17 09:39:03.752 +0800	INFO	org.springframework.web.servlet.FrameworkServlet	524	http-nio-8080-exec-1	Initializing Servlet 'dispatcherServlet'
+2019-10-17 09:39:03.761 +0800	INFO	org.springframework.web.servlet.FrameworkServlet	546	http-nio-8080-exec-1	Completed initialization in 9 ms
+2019-10-17 09:43:32.623 +0800	WARN	com.zaxxer.hikari.pool.HikariPool$HouseKeeper	766	HikariPool-3 housekeeper	HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=4m37s131ms672µs700ns).
+2019-10-17 09:43:32.630 +0800	WARN	org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver	198	http-nio-8080-exec-1	Resolved [com.pilot.test.common.exception.CustomException: 在XXX业务，myBiz()方法内，出现ClassNotFoundException]
+2019-10-17 09:43:33.342 +0800	INFO	com.pilot.test.controller.ScheduleController	44	http-nio-8080-exec-6	result:
+2019-10-17 09:43:33.358 +0800	INFO	com.pilot.test.controller.ScheduleController	47	http-nio-8080-exec-6	scheduleList:

@@ -1,0 +1,2 @@
+2019-10-18 10:04:50.788 +0800	INFO	com.pilot.test.common.config.acceslog.AccessLogInterceptor	72	http-nio-8080-exec-1	AccessLog(username=admin, url=/system, duration=126, httpMethod=GET, httpStatus=200, ip=0:0:0:0:0:0:0:1, createTime=Fri Oct 18 10:04:50 CST 2019)
+2019-10-18 10:05:30.855 +0800	INFO	com.pilot.test.common.config.acceslog.AccessLogInterceptor	72	http-nio-8080-exec-5	AccessLog(username=admin, url=/fileUpload, duration=649, httpMethod=POST, httpStatus=200, ip=0:0:0:0:0:0:0:1, createTime=Fri Oct 18 10:05:30 CST 2019)
